@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -60,15 +61,20 @@
     <input type="text" id="studentName" placeholder="Nome do Aluno">
     <select id="course">
         <option value="">Selecione o Curso</option>
-        <option value="Médio Técnico">Médio Técnico</option>
+        <option value="Médio Técnico DS">Médio Técnico DS</option>
         <option value="Formação Profissional">Formação Profissional</option>
+        <option value="Médio Técnico D JOGOS">Médio Técnico D JOGOS</option>
+        <option value="Médio Tecnico Informática">Médio Tecnico Informática</option>
     </select>
     <select id="class">
         <option value="">Selecione a Turma</option>
-        <option value="A">A</option>
-        <option value="B">B</option>
-        <option value="C">C</option>
-        <option value="D">D</option>
+        <option value="1A">1A</option>
+        <option value="1B">1B</option>
+        <option value="1C">1C</option>
+        <option value="1D">1D</option>
+        <option value="2A">2A</option>
+        <option value="2B">2B</option>
+        <option value="3A">3A</option>
     </select>
     <button class="button" onclick="addStudent()">Adicionar Aluno</button>
 
@@ -97,10 +103,10 @@
 
     <select id="unit">
         <option value="">Selecione a Unidade</option>
-        <option value="1">Unidade 1</option>
-        <option value="2">Unidade 2</option>
-        <option value="3">Unidade 3</option>
-        <option value="4">Unidade 4</option>
+        <option value="1">1° Unidade</option>
+        <option value="2">2° Unidade</option>
+        <option value="3">3° Unidade</option>
+        <option value="4">4° Unidade</option>
     </select>
     <select id="evaluation1">
         <option value="">Avaliação 1</option>
@@ -347,7 +353,7 @@
         const reportType = document.querySelector('input[name="reportType"]:checked').value;
 
         let reportContent = '<html><head><title>Relatório de Notas</title></head><body>';
-        reportContent += '<h1>Instituição SENAC</h1>';
+        reportContent += '<h1>SENAC PAULISTA-PE</h1>';
         reportContent += '<h2>Relatório de Notas</h2>';
         reportContent += '<button class="button" onclick="window.print()">Imprimir</button>'; // Botão de imprimir
 
