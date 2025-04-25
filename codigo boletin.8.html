@@ -54,7 +54,7 @@
 <div id="appContainer" class="hidden">
     <h1>Gerenciador de Notas de Boletim</h1>
     
-    <button class="button" onclick="logout()">Deslogar</button>
+    <button class="button" onclick="logout()">Sair</button>
 
     <h2>Adicionar Aluno</h2>
     <input type="text" id="studentName" placeholder="Nome do Aluno">
@@ -353,7 +353,7 @@
 
         let reportContent = '<html><head><title>Relatório de Notas</title></head><body>';
         reportContent += '<h1>SENAC PAULISTA-PE</h1>';
-        reportContent += '<h2>Relatório de Notas</h2>';
+        reportContent += '<h2>Boletin 2025</h2>';
         reportContent += '<button class="button" onclick="window.print()">Imprimir</button>'; // Botão de imprimir
 
         students.forEach(student => {
