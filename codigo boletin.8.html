@@ -77,7 +77,7 @@
     </select>
     <select id="unit">
         <option value="">Selecione o Turno</option>
-        <option value="Manhã">manhã</option>
+        <option value="Manhã">Manhã</option>
         <option value="Tarde">Tarde</option>
      </select>
     <button class="button" onclick="addStudent()">Adicionar Aluno</button>
