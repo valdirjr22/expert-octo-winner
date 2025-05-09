@@ -75,6 +75,11 @@
         <option value="2B">2B</option>
         <option value="3A">3A</option>
     </select>
+    <select id="unit">
+        <option value="">Selecione o Turno</option>
+        <option value="Manhã">manhã</option>
+        <option value="Tarde">Tarde</option>
+     </select>
     <button class="button" onclick="addStudent()">Adicionar Aluno</button>
 
     <h3>Adicionar Disciplina ao Aluno</h3>
@@ -99,13 +104,11 @@
         <option value="Formação Profissional">Formação Profissional</option>
         <option value="Inovaê">Inovaê</option>
     </select>
-
     <select id="unit">
         <option value="">Selecione a Unidade</option>
         <option value="1">1° Unidade</option>
         <option value="2">2° Unidade</option>
         <option value="3">3° Unidade</option>
-        <option value="4">4° Unidade</option>
     </select>
     <select id="evaluation1">
         <option value="">Avaliação 1</option>
